@@ -1,0 +1,105 @@
+.App {
+  background-color: #37517e;
+  height: 100%;
+  min-height: 100vh;
+}
+
+i {
+  cursor: pointer;
+}
+
+.modal-title {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+#delete-button {
+  background-color: #45cafc !important;
+}
+
+.navbar-top, #save-button {
+  background-color: #2e4369 !important;
+}
+
+.md-form input, .md-form i, .md-form label {
+  color: #2e4369;
+}
+
+.md-form input[type=text]:focus:not([readonly]) {
+  box-shadow: 0 1px 0 0 #2e4369;
+  border-bottom: 1px solid #2e4369;
+}
+
+li .md-form input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #45cafc;
+}
+
+.md-form input[type=text]:focus:not([readonly])+label {
+  color: #45cafc
+}
+
+.email, .md-form .prefix.active, .modal-title, .md-form label.active, #rotate-back, #edit {
+  color: #45cafc;
+}
+
+.testimonial-card {
+  width: 300px;
+  height: 375px;
+}
+
+.card-up {
+  overflow: hidden;
+  height: 100px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 120px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+
+.phone {
+  color: #3a83cc;
+}
+
+.facebook {
+  color: #376bbc;
+}
+
+#rotate, #edit-back, .linkedin {
+  color: #303f9f;
+}
+
+#delete-icon {
+  color: #45cafc;
+  position: absolute;
+  right: 20px;
+}
+
+#rotate, #rotate-back {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  background: none;
+}
+
+#edit, #edit-back {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  background: none;
+}
+
+.logo-text, .nav-icon {
+  color: #00cdff;
+}

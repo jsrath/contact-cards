@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Order Tracker screenshot" src="./screenshot.jpg" width="800" />
+  <img alt="Contact Cards Screenshot" src="./screenshot.jpg" width="800" />
 </p>
 <p align="center">
   <a href="#">
